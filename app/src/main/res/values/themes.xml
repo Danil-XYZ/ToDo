@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Цвета -->
+
+    <color name="lightThemeColor">#E9E9E9</color>
+
+    <style name="Base.Theme.ToDo" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="android:windowBackground">@color/backgroundColor</item>
+        <item name="themeDependentColor">@color/lightThemeColor</item>
+        <item name="textColor">@color/darkBackgroundColor</item>
+    </style>
+
+    <style name="Theme.ToDo" parent="Base.Theme.ToDo" />
+</resources>

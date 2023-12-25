@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Цвета -->
+
+    <color name="darkThemeColor" tools:ignore="MissingDefaultResource">#525252</color>
+
+    <style name="Base.Theme.ToDo" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="android:windowBackground">@color/darkBackgroundColor</item>
+        <item name="themeDependentColor">@color/darkThemeColor</item>
+        <item name="textColor">@color/backgroundColor</item>
+    </style>
+
+
+</resources>

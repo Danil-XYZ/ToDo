@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="appBarLayout" type="id" />
+    <item name="toolbarAddTask" type="id" />
+    <item name="titleInpLay" type="id" />
+    <item name="taskInpLay" type="id" />
+    <item name="dateEdt" type="id" />
+    <item name="timeInptLay" type="id" />
+    <item name="timeEdt" type="id" />
+    <item name="spinnerCategory" type="id" />
+    <item name="imgAddCategory" type="id" />
+    <item name="saveBtn" type="id" />
+</resources>
