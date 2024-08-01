@@ -34,6 +34,7 @@ class MainActivity : AppCompatActivity(), TodoAdapter.TodoAdapterInterface {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        // Подключение ActionBar
         setSupportActionBar(binding.toolbar)
 
         // Установка слушателя для адаптера
@@ -49,6 +50,8 @@ class MainActivity : AppCompatActivity(), TodoAdapter.TodoAdapterInterface {
 
     }
 
+
+
     override fun onResume() {
         super.onResume()
         try {
@@ -61,17 +64,15 @@ class MainActivity : AppCompatActivity(), TodoAdapter.TodoAdapterInterface {
                     thenBy { it.date }.
                     thenBy { it.time })
 
-                    adapter.notifyDataSetChanged()
                 } else {
                     list.clear()
-                    adapter.notifyDataSetChanged()
                 }
+                adapter.notifyDataSetChanged()
             })
         } catch (e: Exception) {
             Log.e("test", e.message.toString())
         }
     }
-
 
 
 

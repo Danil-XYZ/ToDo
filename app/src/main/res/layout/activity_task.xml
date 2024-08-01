@@ -117,6 +117,7 @@
             android:paddingStart="8dp"
             android:paddingEnd="8dp"
             android:textSize="18sp" />
+
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
